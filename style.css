@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(darkred, black, darkred);
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.1s linear;
+    color: lightblue;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 5px red;
+    color: lightgray;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+p {
+    color: lightgray;
+}
+
+header {
+    background-image: linear-gradient(to right, red, darkred);
+    border: 0px solid black;
+    border-radius: 15px;
+    height: 60px;
+}
+
+.nickname {
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+.link-header {
+    background-image: linear-gradient(black, darkred, darkred, darkred, darkred, black);
+    border: 2px solid red;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 5px;
+    position: relative;
+    top: 18px;
+    left: 5px;
+    transition: all 0.1s linear;
+}
+
+.link-header:hover {
+    font-size: 21px;
+}
+
+.link-header:focus {
+    font-size: 19px;
+}
+
+.info1 {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.link-nav {
+    background-image: linear-gradient(blue, darkblue, darkblue, darkblue, darkblue, blue);
+    border: 0px solid black;
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+.link-nav:hover {
+    font-size: 21px;
+    transform: rotateY(360deg);
+}
+
+.link-nav:focus {
+    font-size: 19px;
+}
+
+.info2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+}
+
+.advices {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.social {
+    position: fixed;
+    bottom: 10px;
+}
